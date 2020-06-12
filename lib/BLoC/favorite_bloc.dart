@@ -14,7 +14,7 @@ class FavoriteBloc implements Bloc {
     if (_restaurants.contains(restaurant)) {
       _restaurants.remove(restaurant);
     } else {
-      _restauratns.add(restaurant);
+      _restaurants.add(restaurant);
     }
 
     _controller.sink.add(_restaurants);
